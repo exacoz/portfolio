@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+.pre-website {
+    background-image: url(/assets/Bg.png);
+    height: 750px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.controls-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 750px;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1520.8px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.just-the-right-food {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    height: 550.2px;
+    width: 530px;
+    justify-content: center;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 272px 272px;
+    height: 230px;
+    width: 550px;
+    margin: 30px 0px;
+}
+
+.booking-div {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-height: 632px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 70px 0px;
+    width: 100%;
+    max-width: 2000px;
+    background-image: url(/assets/SectionBackground.png);
+}
